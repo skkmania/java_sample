@@ -1,5 +1,5 @@
 /**
- * 
+ *	sample from eclipse book 
  */
 package jp.tuyano.eclipsebook;
 
