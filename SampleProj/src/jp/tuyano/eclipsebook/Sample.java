@@ -13,12 +13,11 @@ public class Sample {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		int n = 12344;
-		while (12345 % n > 0){
-			n--;
+		int n = 0;
+		for (int i = 1; i <= 10000; i++) {
+			n += i;
 		}
 		System.out.println(n);
-		System.out.println(12345 / n);
 	}
 
 }
